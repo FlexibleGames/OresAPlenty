@@ -1,0 +1,9 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 12,
+    "file": "worldgen/deposits/mineralore/halite.json"
+  }
+]

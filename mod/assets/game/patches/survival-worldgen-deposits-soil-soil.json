@@ -1,0 +1,69 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/triesPerChunk",
+    "value": 0.075,
+    "file": "worldgen/deposits/soil/soil.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 10,
+    "file": "worldgen/deposits/soil/soil.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/soil/soil.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attributes/growthLightLevel",
+    "value": 3,
+    "file": "blocktypes/soil/soil.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "add",
+    "path": "/attributes/growthChanceOnTick",
+    "value": 0.5,
+    "file": "blocktypes/soil/soil.json"
+  },    
+  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/0/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/0/minRain", "value": 0, "file": "worldgen/blocklayers.json" },  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/0/minFertility", "value": 0.01, "file": "worldgen/blocklayers.json" },
+
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/1/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/1/minRain", "value": 0, "file": "worldgen/blocklayers.json" },  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/1/minFertility", "value": 0.01, "file": "worldgen/blocklayers.json" },
+
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/2/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/2/minRain", "value": 0, "file": "worldgen/blocklayers.json" },  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/2/minFertility", "value": 0.01, "file": "worldgen/blocklayers.json" },
+
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/3/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/3/minRain", "value": 0, "file": "worldgen/blocklayers.json" },  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/3/minFertility", "value": 0.01, "file": "worldgen/blocklayers.json" },
+
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/4/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/4/minRain", "value": 0, "file": "worldgen/blocklayers.json" },  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/4/minFertility", "value": 0.01, "file": "worldgen/blocklayers.json" },
+
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/5/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/5/minRain", "value": 0, "file": "worldgen/blocklayers.json" },  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/blockCodeByMin/5/minFertility", "value": 0.01, "file": "worldgen/blocklayers.json" },
+  
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/minFertility", "value": 0, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/minTemp", "value": -30, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "replace", "path": "/blocklayers/0/minRain", "value": 0, "file": "worldgen/blocklayers.json" },
+  
+  { "side": "Server", "op": "add", "path": "/blocklayers/0/blockCodeByMin/-", "value": { minTemp: -30, minRain: 0, minFertility: 0.01, blockCode: "soil-high-normal" }, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "add", "path": "/blocklayers/0/blockCodeByMin/-", "value": { minTemp: -30, minRain: 0, minFertility: 0.01, blockCode: "soil-high-sparse" }, "file": "worldgen/blocklayers.json" },
+  { "side": "Server", "op": "add", "path": "/blocklayers/0/blockCodeByMin/-", "value": { minTemp: -30, minRain: 0, minFertility: 0.01, blockCode: "soil-high-verysparse" }, "file": "worldgen/blocklayers.json" }  
+]

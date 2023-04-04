@@ -1,0 +1,93 @@
+[
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-chalk", "file": "blocktypes/stone/ore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-chert", "file": "blocktypes/stone/ore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-conglomerate", "file": "blocktypes/stone/ore-graded.json" },	
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-claystone", "file": "blocktypes/stone/ore-graded.json" },  
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-sandstone", "file": "blocktypes/stone/ore-graded.json" },    
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-shale", "file": "blocktypes/stone/ore-graded.json" },  
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-chalk", "file": "itemtypes/resource/ore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-chert", "file": "itemtypes/resource/ore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-conglomerate", "file": "itemtypes/resource/ore-graded.json" },	
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-claystone", "file": "itemtypes/resource/ore-graded.json" },  
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-sandstone", "file": "itemtypes/resource/ore-graded.json" },    
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-nativecopper-shale", "file": "itemtypes/resource/ore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-chalk", "file": "itemtypes/resource/crystalizedore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-chert", "file": "itemtypes/resource/crystalizedore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-conglomerate", "file": "itemtypes/resource/crystalizedore-graded.json" },	
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-claystone", "file": "itemtypes/resource/crystalizedore-graded.json" },  
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-sandstone", "file": "itemtypes/resource/crystalizedore-graded.json" },    
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-shale", "file": "itemtypes/resource/crystalizedore-graded.json" },    
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
+    "value": [
+      "rich"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-chert",
+    "value": [
+      "rich"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-claystone",
+    "value": [
+      "rich"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-conglomerate",
+    "value": [
+      "rich"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "value": [
+      "rich",
+      "bountiful"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone",
+    "value": [
+      "rich"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-shale",
+    "value": [
+      "rich"
+    ],
+    "file": "worldgen/deposits/metalore/nativecopper.json"
+  },
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate/0", "file": "worldgen/deposits/metalore/nativecopper.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate/0", "file": "worldgen/deposits/metalore/nativecopper.json" } 
+]

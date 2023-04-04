@@ -1,0 +1,25 @@
+[
+	{
+		code: "chromite",
+		triesPerChunk: 2,
+		handbookPageCode: "item-nugget-chromite",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite", "kimberlite"] },
+			placeblock: {
+				code: "ore-*-chromite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["bountiful"],
+					"rock-granite": ["bountiful"],
+					"rock-basalt": ["rich"],
+					"rock-peridotite": ["rich"],
+					"rock-kimberlite": ["bountiful"]
+				}
+			},
+			radius: { dist: "invexp", avg: 5, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.2, var: 0.15 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

@@ -1,0 +1,38 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/mineralore/olivine.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/childDeposits/0/attributes/placeblock/allowedVariants",
+    "value": ["high"],
+    "file": "worldgen/deposits/mineralore/olivine.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/childDeposits/0/attributes/radius/avg",
+    "value": 6,
+    "file": "worldgen/deposits/mineralore/olivine.json"
+  },    
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-olivine-andesite", "file": "blocktypes/stone/ore-ungraded.json" },
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-olivine-granite", "file": "blocktypes/stone/ore-ungraded.json"},
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-olivine-basalt", "file": "blocktypes/stone/ore-ungraded.json" },
+
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "looseores-olivine-andesite-free", "file": "blocktypes/stone/looseores.json" },
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "looseores-olivine-granite-free", "file": "blocktypes/stone/looseores.json"},
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "looseores-olivine-basalt-free", "file": "blocktypes/stone/looseores.json" },
+
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "looseores-olivine_peridot-andesite-free", "file": "blocktypes/stone/looseores.json" },
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "looseores-olivine_peridot-granite-free", "file": "blocktypes/stone/looseores.json"},
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "looseores-olivine_peridot-basalt-free", "file": "blocktypes/stone/looseores.json" },
+
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-andesite", "file": "blocktypes/stone/ore-gem.json" },
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-granite", "file": "blocktypes/stone/ore-gem.json"},
+	{ "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-basalt", "file": "blocktypes/stone/ore-gem.json" }
+]

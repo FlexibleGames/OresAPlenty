@@ -1,0 +1,40 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 5,
+    "file": "worldgen/deposits/gem/diamond.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/yPosRel/avg",
+    "value": 0.3,
+    "file": "worldgen/deposits/gem/diamond.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/gem/diamond.json"
+  },
+  {
+	  "side": "Server", 
+	"op": "add",
+	"path": "/allowedVariants/-",
+	"value": "ore-high-diamond-suevite",
+    "file": "blocktypes/stone/ore-gem.json"	
+  },
+  {
+	  "side": "Server", 
+	"op": "add",
+	"path": "/allowedVariants/-",
+	"value": "ore-high-diamond-basalt",
+    "file": "blocktypes/stone/ore-gem.json"	
+  },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-kimberlite/0", "file": "worldgen/deposits/gem/diamond.json" },   
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-kimberlite/0", "file": "worldgen/deposits/gem/diamond.json" },   
+  { "side": "Server", "op": "replace", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-suevite/0", "value": "high", "file": "worldgen/deposits/gem/diamond.json" } 
+]

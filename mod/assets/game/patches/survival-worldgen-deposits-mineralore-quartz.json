@@ -1,0 +1,30 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/var",
+    "value": 1,
+    "file": "worldgen/deposits/mineralore/quartz.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/childDeposits/0/attributes/radius/avg",
+    "value": 6,
+    "file": "worldgen/deposits/mineralore/quartz.json"
+  },   
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/childDeposits/1/attributes/radius/avg",
+    "value": 4,
+    "file": "worldgen/deposits/mineralore/quartz.json"
+  }  
+]

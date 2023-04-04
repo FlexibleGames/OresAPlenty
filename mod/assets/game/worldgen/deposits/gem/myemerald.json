@@ -1,0 +1,19 @@
+[
+	{
+		code: "emerald",
+		triesPerChunk: 3,		
+		handbookPageCode: "item-gem-emerald-rough",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["basalt", "peridotite", "shale", "limestone", "phyllite", "slate"] },
+			placeblock: { 
+				code: "ore-*-emerald-{rock}",
+				name: "potential",
+				allowedVariants: ["high"]
+			},
+			radius: { dist: "gaussian", avg: 4, var: 1 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

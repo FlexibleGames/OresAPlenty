@@ -1,0 +1,16 @@
+{
+	"ore-nativegold": "Gold Ore",
+	"ore-nativesilver": "Silver Ore",
+	"block-ore-*-nativegold-*": "Gold Ore",
+	"block-ore-*-nativesilver-*": "Silver Ore",
+	"item-ore-nativegold": "Gold Ore Chunk",
+	"item-ore-nativesilver": "Silver Ore Chunk",
+	"item-lavaportion": "Portion of Lava (1 Litre)",
+	"incontainer-item-lavaportion": "Lava",
+	"block-ore-olivine-andesite": "Olivine",
+	"block-ore-olivine-granite": "Olivine",
+	"block-ore-olivine-basalt": "Olivine",
+	"block-looseores-olivine-andesite-*": "Olivine bits",
+	"block-looseores-olivine-granite-*": "Olivine bits",
+	"block-looseores-olivine-basalt-*": "Olivine bits"
+}

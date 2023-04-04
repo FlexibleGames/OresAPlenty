@@ -1,0 +1,25 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 3,
+    "file": "worldgen/deposits/gem/peridot.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/yPosRel/avg",
+    "value": 0.2,
+    "file": "worldgen/deposits/gem/peridot.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/gem/peridot.json"
+  },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariants/0", "file": "worldgen/deposits/gem/peridot.json" },   
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariants/0", "file": "worldgen/deposits/gem/peridot.json" } 
+]

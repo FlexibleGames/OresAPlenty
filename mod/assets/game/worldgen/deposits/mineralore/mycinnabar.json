@@ -1,0 +1,16 @@
+[
+	{
+		code: "cinnabar",
+		triesPerChunk: 1,		
+		handbookPageCode: "item-ore-cinnabar",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite", "phyllite", "slate"] },
+			placeblock: { code: "ore-cinnabar-{rock}" },
+			surfaceBlock: { code: "looseores-cinnabar-{rock}-free" },
+			radius: { dist: "gaussian", avg: 6, var: 3 },
+			yPosRel: {dist: "uniform", avg: 0.3, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

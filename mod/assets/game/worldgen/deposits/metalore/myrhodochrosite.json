@@ -1,0 +1,28 @@
+[
+	{
+		code: "rhodochrosite",
+		triesPerChunk: 1,		
+		handbookPageCode: "item-nugget-rhodochrosite",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "chert", "conglomerate", "phyllite", "slate"] },
+			placeblock: {
+				code: "ore-*-rhodochrosite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-claystone": ["rich"],
+					"rock-sandstone": ["rich"],
+					"rock-shale": ["rich"],
+					"rock-chalk": ["medium"],
+					"rock-chert": ["medium"],
+					"rock-conglomerate": ["medium", "rich"],
+					"rock-phyllite": ["bountiful"],
+					"rock-slate": ["rich", "bountiful"]
+				}
+			},
+			radius: { dist: "invexp", avg: 4, var: 3 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

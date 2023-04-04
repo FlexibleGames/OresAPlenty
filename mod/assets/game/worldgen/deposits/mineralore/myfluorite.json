@@ -1,0 +1,17 @@
+[
+	{
+		code: "fluorite",
+		triesPerChunk: 2,		
+		handbookPageCode: "item-ore-fluorite",
+		generator: "disc-followsealevel",
+		attributes: {	
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "ore-fluorite-{rock}" },
+			surfaceBlock: { code: "looseores-fluorite-{rock}-free" },
+			surfaceBlockChance: 0.2,
+			radius: { dist: "gaussian", avg: 6, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

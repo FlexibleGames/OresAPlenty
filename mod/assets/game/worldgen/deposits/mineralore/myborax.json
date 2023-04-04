@@ -1,0 +1,16 @@
+[
+	{
+		code: "borax",
+		triesPerChunk: 2,		
+		handbookPageCode: "item-ore-borax",
+		generator: "disc-followsealevel",
+		attributes: {	
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "ore-borax-{rock}" },
+			surfaceBlock: { code: "looseores-borax-{rock}-free" },
+			radius: { dist: "gaussian", avg: 8, var: 4 },
+			yPosRel: {dist: "uniform", avg: 0.8, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

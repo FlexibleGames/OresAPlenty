@@ -1,0 +1,17 @@
+[
+	{
+		code: "kernite",
+		triesPerChunk: 2,
+		handbookPageCode: "item-ore-kernite",
+		generator: "disc-followsealevel",
+		attributes: {	
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "ore-kernite-{rock}" },
+			surfaceBlock: { code: "looseores-kernite-{rock}-free" },
+			surfaceBlockChance: 0.3,
+			radius: { dist: "gaussian", avg: 4, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

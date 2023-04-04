@@ -1,0 +1,25 @@
+[
+	{
+		code: "silver",
+		triesPerChunk: 2,		
+		handbookPageCode: "item-nugget-nativesilver",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "shale", "chert"] },
+			placeblock: {
+				code: "ore-*-nativesilver-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["bountiful"],
+					"rock-granite": ["bountiful"],
+					"rock-basalt": ["bountiful"],
+					"rock-shale": ["bountiful"],
+					"rock-chert": ["bountiful"]
+				}
+			},
+			radius: { dist: "uniform", avg: 5, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.75, var: 0.1 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

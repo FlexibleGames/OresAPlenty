@@ -1,0 +1,16 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 10,
+    "file": "worldgen/deposits/mineralore/phosphorite.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/mineralore/phosphorite.json"
+  }
+]

@@ -1,0 +1,9 @@
+[
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-claystone", "file": "blocktypes/stone/ore-ungraded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-sandstone", "file": "blocktypes/stone/ore-ungraded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-shale", "file": "blocktypes/stone/ore-ungraded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-granite", "file": "blocktypes/stone/ore-ungraded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-limestone", "file": "blocktypes/stone/ore-ungraded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-chert", "file": "blocktypes/stone/ore-ungraded.json" },     	
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-sylvite-conglomerate", "file": "blocktypes/stone/ore-ungraded.json" }	
+]

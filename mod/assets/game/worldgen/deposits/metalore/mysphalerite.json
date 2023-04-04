@@ -1,0 +1,33 @@
+[
+	{
+		code: "sphalerite",
+		triesPerChunk: 2,		
+		handbookPageCode: "item-nugget-sphalerite",
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite", "claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate", "phyllite", "slate"] },
+			placeblock: {
+				code: "ore-*-sphalerite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["rich"],
+					"rock-granite": ["rich"],
+					"rock-basalt": ["rich"],
+					"rock-peridotite": ["bountiful"],
+					"rock-claystone": ["rich"],
+					"rock-sandstone": ["rich"],
+					"rock-shale": ["rich"],
+					"rock-chalk": ["rich"],
+					"rock-limestone": ["rich"],
+					"rock-chert": ["rich"],
+					"rock-conglomerate": ["medium", "rich"],
+					"rock-phyllite": ["bountiful"],
+					"rock-slate": ["rich", "bountiful"]
+				}
+			},
+			radius: { dist: "gaussian", avg: 6, var: 3 },
+			yPosRel: {dist: "uniform", avg: 0.50, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

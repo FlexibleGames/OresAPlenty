@@ -1,0 +1,43 @@
+[
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 12,
+    "file": "worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/0/attributes/yPosRel/avg",
+    "value": 0.4,
+    "file": "worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/pentlandite.json"
+  },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-pentlandite-andesite", "file": "blocktypes/stone/ore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-pentlandite-granite", "file": "blocktypes/stone/ore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-pentlandite-basalt", "file": "blocktypes/stone/ore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-pentlandite-andesite", "file": "blocktypes/stone/ore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-pentlandite-granite", "file": "blocktypes/stone/ore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-pentlandite-basalt", "file": "blocktypes/stone/ore-graded.json" },    
+  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-pentlandite-andesite", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-pentlandite-granite", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-pentlandite-basalt", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-pentlandite-andesite", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-pentlandite-granite", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-pentlandite-basalt", "file": "itemtypes/resource/ore-graded.json" },  
+  
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-pentlandite-andesite", "file": "itemtypes/resource/crystalizedore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-pentlandite-granite", "file": "itemtypes/resource/crystalizedore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-pentlandite-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-pentlandite-andesite", "file": "itemtypes/resource/crystalizedore-graded.json" },   
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-pentlandite-granite", "file": "itemtypes/resource/crystalizedore-graded.json" },
+  { "side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-pentlandite-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" }  
+]

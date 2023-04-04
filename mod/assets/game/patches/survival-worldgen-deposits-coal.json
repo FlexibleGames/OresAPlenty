@@ -1,0 +1,44 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/coal.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 3,
+    "file": "worldgen/deposits/coal.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/coal.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/thickness/avg",
+    "value": 3,
+    "file": "worldgen/deposits/coal.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/2/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/coal.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/2/attributes/thickness/avg",
+    "value": 3,
+    "file": "worldgen/deposits/coal.json"
+  } 
+]

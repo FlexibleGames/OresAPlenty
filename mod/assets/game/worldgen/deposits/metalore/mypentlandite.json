@@ -1,0 +1,24 @@
+[
+	{
+		code: "pentlandite",
+		triesPerChunk: 1,
+		handbookPageCode: "item-nugget-pentlandite",
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite"] },
+			placeblock: {
+				code: "ore-*-pentlandite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["rich", "bountiful"],
+					"rock-granite": ["rich", "bountiful"],
+					"rock-basalt": ["rich", "bountiful"],
+					"rock-peridotite": ["rich", "bountiful"]
+				}
+			},
+			radius: { dist: "uniform", avg: 5, var: 3 },
+			yPosRel: {dist: "uniform", avg: 0.2, var: 0.2 },
+			thickness: { dist: "uniform", avg: 1, var: 2 }
+		}
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		code: "phosphorite",
+		triesPerChunk: 2,		
+		handbookPageCode: "item-ore-phosphorite",
+		generator: "disc-followsealevel",
+		attributes: {	
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "ore-phosphorite-{rock}" },
+			surfaceBlock: { code: "looseores-phosphorite-{rock}-free" },
+			surfaceBlockChance: 0.4,
+			radius: { dist: "gaussian", avg: 5, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

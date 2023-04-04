@@ -1,0 +1,42 @@
+[
+	{
+		code: "galena",
+		triesPerChunk: 0.5,		
+		handbookPageCode: "item-nugget-galena",
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { 
+				code: "ore-*-galena-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-claystone": ["rich"],
+					"rock-sandstone": ["rich"],
+					"rock-shale": ["rich", "bountiful"],
+					"rock-chalk": ["medium"],
+					"rock-limestone": ["medium"],
+					"rock-chert": ["bountiful"],
+					"rock-conglomerate": ["medium"]
+				}
+			},
+			surfaceBlock: {code: "looseores-galena-{rock}-free" },
+			radius: { dist: "gaussian", avg: 3, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		},
+		childDeposits: [
+			{
+				code: "silver",
+				triesPerChunk: 4,				
+				handbookPageCode: "item-nugget-nativesilver",
+				generator: "childdeposit-pointcloud",
+				attributes: {
+					randomTries: { avg: 10 },
+					placeblock: { code: "ore-*-galena_nativesilver-{rock}", name: "grade", allowedVariants: ["bountiful"] },
+					radius: { dist: "gaussian", avg: 2, var: 1 },
+					thickness: { dist: "invexp", avg: 1.2, var: 3 }
+				}
+			}
+		],
+	}
+]

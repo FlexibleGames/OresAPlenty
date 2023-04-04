@@ -1,0 +1,39 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 6,
+    "file": "worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/yPosRel/avg",
+    "value": 0.4,
+    "file": "worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/rhodochrosite.json"
+  },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-claystone/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },    
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-claystone/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },    
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },      
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },      
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },        
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },          
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },          
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },   
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chert/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },     
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-conglomerate/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate/0", "file": "worldgen/deposits/metalore/rhodochrosite.json" }
+]

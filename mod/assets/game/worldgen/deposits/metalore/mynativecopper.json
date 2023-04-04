@@ -1,0 +1,33 @@
+[
+	{
+		code: "nativecopper",
+		_comment: "Deep native copper deposits",
+		triesPerChunk: 2,		
+		handbookPageCode: "item-nugget-nativecopper",
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "peridotite", "claystone", "sandstone", "shale", "chalk", "chert", "conglomerate", "phyllite", "slate"] },
+			placeblock: { 
+				code: "ore-*-nativecopper-{rock}", 
+				name: "grade", 
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["medium", "rich"],
+					"rock-granite": ["rich"],
+					"rock-basalt": ["bountiful"],
+					"rock-peridotite": ["rich"],
+					"rock-claystone": ["medium"],
+					"rock-sandstone": ["medium"],
+					"rock-shale": ["medium"],
+					"rock-chalk": ["medium"],
+					"rock-chert": ["rich"],
+					"rock-conglomerate": ["poor", "medium"],
+					"rock-phyllite": ["rich"],
+					"rock-slate": ["rich"]
+				}
+			},
+			radius: { dist: "uniform", avg: 4, var: 3 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "stronginvexp", avg: 1, var: 3 }
+		}
+	}
+]

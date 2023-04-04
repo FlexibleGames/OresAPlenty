@@ -1,0 +1,27 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 4,
+    "file": "worldgen/deposits/metalore/bismuthinite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/bismuthinite.json"
+  },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },     
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },       
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/bismuthinite.json" },  
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate/0", "file": "worldgen/deposits/metalore/bismuthinite.json" }  
+]

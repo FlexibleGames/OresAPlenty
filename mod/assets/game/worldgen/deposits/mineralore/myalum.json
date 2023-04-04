@@ -1,0 +1,24 @@
+[
+	{
+		code: "alum",		
+		triesPerChunk: 1,
+		handbookPageCode: "rock-alum",
+		generator: "disc-followsurfacebelow",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "ore-alum-{rock}" },
+			depth: { dist: "uniform", avg: 3, var: 0 },
+			thickness: { avg: 3.3, var: 1 },
+			radius: { dist: "uniform", avg: 10, var: 8 },
+			maxYRoughness: 1,
+		},
+		climate: {
+			minRain: 0,
+			maxRain: 0.7, 
+			minTemp: 1,
+			maxTemp: 60,
+			maxYRoughness: 1,
+			maxY: 0.53
+		}
+	}
+]

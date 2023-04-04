@@ -1,0 +1,26 @@
+[
+	{
+		code: "ilmenite",
+		triesPerChunk: 3,
+		handbookPageCode: "item-nugget-ilmenite",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "basalt", "phyllite", "slate"] },
+			placeblock: { 
+				code: "ore-*-ilmenite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["rich", "bountiful"],
+					"rock-granite": ["rich", "bountiful"], 
+					"rock-basalt": ["rich", "bountiful"],
+					"rock-kimberlite": ["bountiful"],
+					"rock-phyllite": ["rich"],
+					"rock-slate": ["rich"]
+				}
+			},
+			radius: { dist: "invexp", avg: 5, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			thickness: { dist: "uniform", avg: 3, var: 1 }
+		}
+	}
+]

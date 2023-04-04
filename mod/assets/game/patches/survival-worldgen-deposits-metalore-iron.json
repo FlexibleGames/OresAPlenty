@@ -1,0 +1,72 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/metalore/iron.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/iron.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/metalore/iron.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/iron.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/2/attributes/radius/avg",
+    "value": 10,
+    "file": "worldgen/deposits/metalore/iron.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/2/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/iron.json"
+  },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-limonite-basalt", "file": "blocktypes/stone/ore-graded.json" },     
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-limonite-basalt", "file": "blocktypes/stone/ore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-limonite-basalt", "file": "itemtypes/resource/ore-graded.json" },     
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-limonite-basalt", "file": "itemtypes/resource/ore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-limonite-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" },     
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-limonite-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" },   
+  { "side": "Server", "op": "replace", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/0", "value": "rich", "file": "worldgen/deposits/metalore/iron.json" },
+  { "side": "Server", "op": "replace", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/1", "value": "bountiful", "file": "worldgen/deposits/metalore/iron.json" },
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chert/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chert/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chert/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-chalk/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "remove", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-claystone/0", "file": "worldgen/deposits/metalore/iron.json" }, 
+  { "side": "Server", "op": "replace", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-conglomerate/0", "value": "medium", "file": "worldgen/deposits/metalore/iron.json" },
+  { "side": "Server", "op": "replace", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-conglomerate/1", "value": "rich", "file": "worldgen/deposits/metalore/iron.json" },
+  { "side": "Server", "op": "replace", "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate/1", "value": "bountiful", "file": "worldgen/deposits/metalore/iron.json" }
+]

@@ -1,0 +1,16 @@
+[
+	{
+		code: "sulfur",
+		triesPerChunk: 3,		
+		handbookPageCode: "item-ore-sulfur",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "ore-sulfur-{rock}" },
+			surfaceBlock: { code: "looseores-sulfur-{rock}-free" },
+			radius: { dist: "gaussian", avg: 6, var: 2 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 0.3 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

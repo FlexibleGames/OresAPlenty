@@ -1,0 +1,37 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/triesPerChunk",
+    "value": 3,
+    "file": "worldgen/deposits/rock/marble.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/1/triesPerChunk",
+    "value": 3,
+    "file": "worldgen/deposits/rock/marble.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/2/triesPerChunk",
+    "value": 1,
+    "file": "worldgen/deposits/rock/marble.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/3/triesPerChunk",
+    "value": 0.2,
+    "file": "worldgen/deposits/rock/marble.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/4/triesPerChunk",
+    "value": 0.1,
+    "file": "worldgen/deposits/rock/marble.json"
+  }  
+]

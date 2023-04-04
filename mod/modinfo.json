@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "OresAPlenty",
+  "name": "OresAPlenty Mod",
+  "authors": [ "Flexible Games" ],
+  "description": "Amplifies Oregen (Metals, minerals, marble, etc) among other things...",
+  "website": "https://www.youtube.com/c/FlexibleGames",
+  "side": "Universal",
+  "version": "3.0.0",
+  "dependency": {}
+}

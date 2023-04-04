@@ -1,0 +1,23 @@
+[
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-andesite", "file": "blocktypes/stone/ore-graded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-granite", "file": "blocktypes/stone/ore-graded.json" },
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-basalt", "file": "blocktypes/stone/ore-graded.json" },
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-shale", "file": "blocktypes/stone/ore-graded.json" },
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-chert", "file": "blocktypes/stone/ore-graded.json" },		
+	
+	{	"side": "Server", "op": "add", "path": "/requiredMiningTierByType/ore-*-nativesilver-*", "value": 2, "file": "blocktypes/stone/ore-graded.json" },	
+	
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativesilver-andesite", "file": "itemtypes/resource/crystalizedore-graded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativesilver-granite", "file": "itemtypes/resource/crystalizedore-graded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativesilver-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativesilver-shale", "file": "itemtypes/resource/crystalizedore-graded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativesilver-chert", "file": "itemtypes/resource/crystalizedore-graded.json" },
+	
+	{	"side": "Server", "op": "add", "path": "/variants/-", "value": { "Code": "nativesilver" }, "file": "worldproperties/block/ore-graded.json" },
+	
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-andesite", "file": "itemtypes/resource/ore-graded.json" },     
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-granite", "file": "itemtypes/resource/ore-graded.json" },
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-basalt", "file": "itemtypes/resource/ore-graded.json" },
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-shale", "file": "itemtypes/resource/ore-graded.json" },
+	{	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-nativesilver-chert", "file": "itemtypes/resource/ore-graded.json" }
+]

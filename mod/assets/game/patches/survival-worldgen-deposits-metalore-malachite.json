@@ -1,0 +1,34 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 9,
+    "file": "worldgen/deposits/metalore/malachite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/metalore/malachite.json"
+  },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-malachite-whitemarble", "file": "blocktypes/stone/ore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-malachite-whitemarble", "file": "itemtypes/resource/ore-graded.json" }, 
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-malachite-whitemarble", "file": "itemtypes/resource/crystalizedore-graded.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-greenmarble/0", "file": "worldgen/deposits/metalore/malachite.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-greenmarble/0", "file": "worldgen/deposits/metalore/malachite.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/0", "file": "worldgen/deposits/metalore/malachite.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/0", "file": "worldgen/deposits/metalore/malachite.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-redmarble/0", "file": "worldgen/deposits/metalore/malachite.json" }, 
+  { "side": "Server", "op": "remove", "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-redmarble/0", "file": "worldgen/deposits/metalore/malachite.json" }, 
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-whitemarble",
+    "value": [
+      "bountiful"
+    ],
+    "file": "worldgen/deposits/metalore/malachite.json"
+  }
+]

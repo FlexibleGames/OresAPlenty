@@ -1,0 +1,16 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 5,
+    "file": "worldgen/deposits/mineralore/lapis.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/thickness/avg",
+    "value": 2,
+    "file": "worldgen/deposits/mineralore/lapis.json"
+  }
+]

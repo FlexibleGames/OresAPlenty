@@ -1,0 +1,68 @@
+[
+	{
+		code: "limonite",
+		triesPerChunk: 1,		
+		handbookPageCode: "item-nugget-limonite",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["basalt", "shale", "chert"] },
+			placeblock: {
+				code: "ore-*-limonite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-basalt": ["rich"],
+					"rock-shale": ["rich", "bountiful"],
+					"rock-chert": ["bountiful"]
+				}
+			},
+			radius: { dist: "uniform", avg: 16, var: 10 },
+			yPosRel: {dist: "uniform", avg: 0.65, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	},
+	{
+		code: "hematite",
+		triesPerChunk: 1.5,		
+		handbookPageCode: "item-nugget-hematite",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["granite", "peridotite", "limestone", "phyllite"] },
+			placeblock: { 
+				code: "ore-*-hematite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-granite": ["rich", "bountiful"],
+					"rock-peridotite": ["rich", "bountiful"],
+					"rock-limestone": ["rich"],
+					"rock-phyllite": ["medium"]
+				}
+			},
+			radius: { dist: "uniform", avg: 6, var: 4 },
+			yPosRel: {dist: "uniform", avg: 0.4, var: 0.1 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	},		
+	{
+		code: "magnetite",
+		triesPerChunk: 0.5,		
+		handbookPageCode: "item-nugget-magnetite",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "claystone", "chalk", "conglomerate", "slate"] },
+			placeblock: {
+				code: "ore-*-magnetite-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["rich", "bountiful"],
+					"rock-claystone": ["poor", "rich"],
+					"rock-chalk": ["medium"],
+					"rock-conglomerate": ["medium", "rich"],
+					"rock-slate": ["poor"],
+				}
+			},
+			radius: { dist: "uniform", avg: 6, var: 4 },
+			yPosRel: {dist: "uniform", avg: 0.25, var: 0.2 },
+			thickness: { dist: "uniform", avg: 2, var: 1 }
+		}
+	}
+]

@@ -1,0 +1,9 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/0/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/mineralore/alum.json"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/radius/avg",
+    "value": 15,
+    "file": "worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/yPosRel/avg",
+    "value": 0.8,
+    "file": "worldgen/deposits/metalore/cassiterite.json"
+  },  
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/1/attributes/thickness/avg",
+    "value": 3,
+    "file": "worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/2/attributes/yPosRel/avg",
+    "value": 0.40,
+    "file": "worldgen/deposits/metalore/cassiterite.json"
+  },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-cassiterite-andesite", "file": "blocktypes/stone/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-cassiterite-andesite", "file": "blocktypes/stone/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-cassiterite-basalt", "file": "blocktypes/stone/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-cassiterite-basalt", "file": "blocktypes/stone/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-cassiterite-peridotite", "file": "blocktypes/stone/ore-graded.json" },  
+ 
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-cassiterite-andesite", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-cassiterite-andesite", "file": "itemtypes/resource/ore-graded.json" },
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-cassiterite-basalt", "file": "itemtypes/resource/ore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-bountiful-cassiterite-basalt", "file": "itemtypes/resource/ore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "ore-rich-cassiterite-peridotite", "file": "itemtypes/resource/ore-graded.json" },
+ 
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-cassiterite-andesite", "file": "itemtypes/resource/crystalizedore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-cassiterite-andesite", "file": "itemtypes/resource/crystalizedore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-cassiterite-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-cassiterite-basalt", "file": "itemtypes/resource/crystalizedore-graded.json" },  
+  {	"side": "Server", "op": "add", "path": "/allowedVariants/-", "value": "crystalizedore-rich-cassiterite-peridotite", "file": "itemtypes/resource/crystalizedore-graded.json" }  
+]
