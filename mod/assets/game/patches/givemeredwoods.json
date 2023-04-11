@@ -88,21 +88,21 @@
   {
 	  "side": "Server", 
     "op": "replace",
-    "path": "/miningspeedbytype/axe-steel/wood",
+    "path": "/miningspeedbytype/axe-felling-steel/wood",
     "value": 20,
     "file": "itemtypes/tool/axe-metal.json"
   },
   {
 	  "side": "Server", 
     "op": "replace",
-    "path": "/miningspeedbytype/axe-steel/plant",
+    "path": "/miningspeedbytype/axe-felling-steel/plant",
     "value": 12,
     "file": "itemtypes/tool/axe-metal.json"
   },
   {
 	  "side": "Server", 
     "op": "replace",
-    "path": "/miningspeedbytype/axe-iron/wood",
+    "path": "/miningspeedbytype/axe-felling-iron/wood",
     "value": 12,
     "file": "itemtypes/tool/axe-metal.json"
   },

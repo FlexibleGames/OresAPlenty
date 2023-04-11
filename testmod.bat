@@ -1,0 +1,1 @@
+start C:\Users\simtr\AppData\Roaming\Vintagestory\VintageStory.exe --addModPath "C:\_Programming\Vintage\OresAPlenty" -o modtestworld
