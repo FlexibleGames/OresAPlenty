@@ -16,7 +16,7 @@
 	},
 	{
 		code: "bituminouscoal",
-		triesPerChunk: 2,
+		triesPerChunk: 4,
 		generator: "disc-followsealevel",
 		handbookPageCode: "ore-bituminouscoal",		
 		attributes: {	
@@ -24,14 +24,14 @@
 			placeblock: { code: "ore-bituminouscoal-{rock}" },
 			surfaceBlock: { code: "looseores-bituminouscoal-{rock}-free" },
 			
-			radius: { dist: "uniform", avg: 10, var: 5 },
+			radius: { dist: "uniform", avg: 8, var: 5 },
 			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
 			thickness: { dist: "gaussian", avg: 3, var: 1.3 }
 		}
 	},
 	{
 		code: "anthracite",
-		triesPerChunk: 2,
+		triesPerChunk: 1,
 		generator: "disc-followsealevel",
 		handbookPageCode: "ore-anthracite",
 		attributes: {

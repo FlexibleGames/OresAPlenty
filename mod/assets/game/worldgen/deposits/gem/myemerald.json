@@ -12,7 +12,7 @@
 				allowedVariants: ["high"]
 			},
 			radius: { dist: "gaussian", avg: 4, var: 1 },
-			yPosRel: {dist: "uniform", avg: 0.4, var: 0.2 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 0.3 },
 			thickness: { dist: "uniform", avg: 2, var: 1 }
 		}
 	}

@@ -1,7 +1,7 @@
 [
 	{
 		code: "diamond",
-		triesPerChunk: 2,		
+		triesPerChunk: 4,		
 		handbookPageCode: "item-gem-diamond-rough",
 		generator: "disc-followsealevel",
 		attributes: {

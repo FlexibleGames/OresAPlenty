@@ -10,7 +10,7 @@
 	"side": "Server", 
     "op": "replace",
     "path": "/attackpowerbytype/blade-falx-meteoriciron",
-    "value": 45,
+    "value": 60,
     "file": "itemtypes/tool/blade.json"
   },  
   {

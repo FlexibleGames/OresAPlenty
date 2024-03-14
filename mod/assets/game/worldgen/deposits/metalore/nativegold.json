@@ -1,7 +1,7 @@
 [
 	{
 		code: "gold",
-		triesPerChunk: 2,		
+		triesPerChunk: 3,		
 		handbookPageCode: "item-nugget-nativegold",
 		generator: "disc-followsealevel",
 		attributes: {
@@ -17,7 +17,7 @@
 					"rock-chert": ["bountiful"]
 				}
 			},
-			radius: { dist: "uniform", avg: 3, var: 1 },
+			radius: { dist: "uniform", avg: 4, var: 1 },
 			yPosRel: {dist: "uniform", avg: 0.25, var: 0.2 },
 			thickness: { dist: "uniform", avg: 2, var: 1 }
 		}

@@ -10,21 +10,21 @@
 	  "side": "Server", 
     "op": "replace",
     "path": "/treegens/21/MinTemp",
-    "value": -10,
+    "value": -6,
     "file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server", 
     "op": "replace",
     "path": "/treegens/21/MaxTemp",
-    "value": 20,
+    "value": 18,
     "file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server", 
     "op": "replace",
     "path": "/treegens/21/MinRain",
-    "value": 60,
+    "value": 80,
     "file": "worldgen/treengenproperties.json"
   },
   {
@@ -53,7 +53,7 @@
 	  "side": "Server", 
 	"op": "replace",
 	"path": "/treegens/28/MinTemp",
-	"value": 10,
+	"value": 22,
 	"file": "worldgen/treengenproperties.json"
   },
   {
@@ -67,7 +67,7 @@
 	  "side": "Server", 
 	"op": "replace",
 	"path": "/treegens/28/MinRain",
-	"value": 70,
+	"value": 90,
 	"file": "worldgen/treengenproperties.json"
   },
   {
@@ -79,12 +79,21 @@
   },
   {
 	  "side": "Server", 
-	"op": "replace",
-	"path": "/treegens/28/MinForest",
-	"value": 60,
+	"op": "add",
+	"path": "/treegens/9/MinSize",
+	"value": 1.5,
 	"file": "worldgen/treengenproperties.json"
   },  
-  
+
+  {
+	  "side": "Server", 
+	"op": "add",
+	"path": "/treegens/9/MaxSize",
+	"value": 2.2,
+	"file": "worldgen/treengenproperties.json"
+  },
+
+
   {
 	  "side": "Server", 
     "op": "replace",
