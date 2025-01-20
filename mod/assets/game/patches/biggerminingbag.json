@@ -1,9 +1,0 @@
-[
-  {
-	"side": "Server",
-    "op": "replace",
-    "path": "/attributes/backpack/quantitySlots",
-    "value": 35,
-    "file": "itemtypes/bag/miningbag.json"
-  }
-]
